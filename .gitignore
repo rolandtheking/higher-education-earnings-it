@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# IDE
+.idea/
+.vscode/
+
+# data mnt poinis
+.src_data/
+
+# data files
+data/
