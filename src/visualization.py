@@ -93,7 +93,7 @@ def plot_skill_change_coefficients(summary_table, save_path=None):
     )
     ax.set_title(
             'Оценка штрафа за скорость деактуализации навыков (γ_a) по возрастным'
-            ' когортам',
+            ' когортам \n 95% доверительные интервалы',
             fontsize=12,
             fontweight='bold',
             pad=15,
@@ -205,7 +205,7 @@ def plot_age_wage_trajectories(df_model, save_path=None):
             fontweight='bold',
     )
     ax.set_title(
-            'Эмпирические траектории накопления человеческого капитала: ИКТ vs Прочие'
+            'Эмпирические траектории дохода: ИКТ vs Прочие'
             ' секторы',
             fontsize=12,
             fontweight='bold',
